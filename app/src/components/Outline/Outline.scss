@@ -1,0 +1,27 @@
+
+.outline-card {
+    background-color: #fff;
+    padding: 20px;
+    // margin: 40px auto;
+    border-radius: 5px;
+
+    header {
+        h3 {
+            color: #000;
+        }
+    }
+    p {
+        margin: 20px auto;
+    }
+
+    .more-info {
+        overflow: hidden;
+        .read-more {
+            float: right;
+        }
+        .time {
+            color: #000;
+            opacity: 0.5;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.App {
+  /* text-align: center; */
+  /*margin-top: 60px;*/
+  /*margin-left: 60px;*/
+  /* display: flex;
+  justify-content: space-between; */
+  background: #f2f2f2;  
+  .app-content-wrapper {
+    float: left;
+    width: 100%;
+  }
+
+  .app-main {
+    float:left;
+    width: 100%;
+    margin-right: -320px;
+    main {
+      margin-right: 320px;
+      .article-page {
+        background: #fff;
+        padding: 30px;
+        margin-bottom: 60px;
+      }
+
+      .articles-page {
+        .article-card {
+          margin-bottom: 40px;
+        }
+      }
+    }
+    main > * {
+      margin: 0 20px;
+    }
+  }
+
+  .app-aside {
+    float: left;
+    width: 320px;
+    // aside > * {
+    //   margin: 0 10px;
+    // }
+  }
+
+  footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+

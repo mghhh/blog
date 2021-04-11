@@ -1,0 +1,29 @@
+$baseColor: #f2f2f2;
+
+@mixin clearfix {
+    display: inline-block;
+    &:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
+
+@mixin ct {
+
+}
+
+@mixin d-flex($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+.solid-line {
+    width: 100%;
+    height: 1px;
+    background: #000;
+    opacity: 0.3;
+    transform: scaleY(0.5)
+}

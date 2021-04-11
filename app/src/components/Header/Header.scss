@@ -1,0 +1,36 @@
+@import '../../style/common.scss';
+
+.header-parent {
+    // overflow: hidden;
+    padding-bottom: 120px;
+    margin-bottom: 40px;
+    background: #000;
+    .header {
+        background: #000;   
+        z-index: 9999;     
+        font-size: 20px;
+        @include d-flex(space-between);
+        align-items: center;
+        position: fixed;
+        height: 120px;
+        width: 100%;
+        img {
+            height: 60%;
+        }
+        ul {
+            flex: 1 1 auto;
+            margin: 0;
+            @include d-flex(flex-end);
+            align-items: center;
+            li {
+                margin: 0 50px;
+                a {
+                    color: rgb(216, 208, 208);
+                }
+            }
+        }
+    }
+}
+
+
+
